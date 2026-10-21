@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+  (function () {
+    var p = location.pathname || "/";
+    var m = p.match(/^(\/kakobuyqclink)(?=\/|$)/i);
+    var b = document.createElement("base");
+    b.href = (m ? m[1] : "") + "/";
+    document.head.insertBefore(b, document.head.firstChild);
+  })();
+  </script>
+
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Page not found — Kakobuy Spreadsheet</title>
+  <meta name="robots" content="noindex" />
+  <link rel="canonical" href="https://kakobuyqclink.com/" />
+  <link rel="icon" href="./img/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="./css/style.css?v=qclink9" />
+</head>
+<body>
+  <main class="wrap" style="padding:80px 0">
+    <h1>Page not found</h1>
+    <p>That link is gone. Browse the catalog instead.</p>
+    <p><a class="btn btn-solid" href="/finds/">All finds</a> <a class="btn btn-ghost" href="/">Home</a></p>
+  </main>
+</body>
+</html>
